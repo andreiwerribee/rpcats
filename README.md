@@ -1,7 +1,24 @@
 uv init rpcats<br/>
+<pre>
+<i>
+[project]
+name = "rpcats"
+version = "0.1.0"
+description = "Display information about specified breed of cats."
+readme = "README.md"
+requires-python = ">=3.11"
+</i>
+</pre>
 cd rpcats<br/>
 uv run main.py<br/>
 uv add requests<br/>
+<pre>
+<i>
+dependencies = [
+    "requests>=2.32.5",
+]
+</i>
+</pre>
 uv run main.py<br/>
 uv run main.py -h<br/>
 uv run main.py none<br/>
