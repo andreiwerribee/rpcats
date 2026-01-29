@@ -55,3 +55,4 @@ Successfully built dist\rpcats-0.1.0-py3-none-any.whl
 uv cache dir<br/>
 uv cache --help<br/>
 uv cache clean<br/>
+uvx rpcats-0.1.0-py3-none-any.whl<br/>
