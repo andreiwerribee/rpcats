@@ -50,9 +50,8 @@ uv build<br/>
 <i>
 Successfully built dist\rpcats-0.1.0.tar.gz
 Successfully built dist\rpcats-0.1.0-py3-none-any.whl
-
-uv cache dir
-uv cache --help
-uv cache clean
 </i>
 </pre>
+uv cache dir<br/>
+uv cache --help<br/>
+uv cache clean<br/>
