@@ -10,7 +10,7 @@ requires-python = ">=3.11"
 </i>
 </pre>
 cd rpcats<br/>
-uv run main.py<br/>
+uv run main.py # this will give error, no package "requests"<br/>
 uv add requests<br/>
 <pre>
 <i>
@@ -46,3 +46,9 @@ build-backend = "setuptools.build_meta"
 </i>
 </pre>
 uv build<br/>
+<pre>
+<i>
+Successfully built dist\rpcats-0.1.0.tar.gz
+Successfully built dist\rpcats-0.1.0-py3-none-any.whl
+</i>
+</pre>
