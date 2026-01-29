@@ -14,6 +14,7 @@ dev = [
     "pytest>=9.0.2",
 ]
 </i>
+</pre>
 uv pip list<br/>
 uv lock<br/>
 uv sync<br/>
