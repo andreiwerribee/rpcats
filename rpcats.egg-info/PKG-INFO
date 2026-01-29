@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: rpcats
+Version: 0.1.0
+Summary: Display information about specified breed of cats.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.32.5
+
+uv init rpcats<br/>
+cd rpcats<br/>
+uv run main.py<br/>
+uv add requests<br/>
+uv run main.py<br/>
+uv run main.py -h<br/>
+uv run main.py none<br/>
+uv run main.py "Australian Mist"<br/>
+uv add --dev pytest<br/>
+uv pip list<br/>
